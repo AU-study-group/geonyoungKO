@@ -1,0 +1,9 @@
+.nav {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    font-size: 20;
+    background: #000000;
+    padding: 50px 13px;
+}
