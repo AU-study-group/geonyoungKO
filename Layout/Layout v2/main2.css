@@ -3,14 +3,15 @@
     grid-template-columns: repeat(4, 1fr); /* 3개의 열을 만듭니다. */
     background-color: #4000ff27;
     margin-top: 50;
-   
+    border: 0.5px rgb(0, 0, 0) solid
   }
 
   .item{
-    border: 1px rgb(0, 0, 0) solid;
+    border: 0.5px rgb(0, 0, 0) solid;
     text-align: center;
     list-style: none;
     padding: 10;
+    
   }
   
   
