@@ -34,12 +34,13 @@ a {
   font-size: 20pt;
 }
 
-/* 검색창 스타일링 */
+
 .asibal{
+  font-size: 20px;
   position:absolute;
-  right:11px;
-  transform:translateY(-110%);
-  display: none;  
+  right:10px;
+  display: none; 
+  padding-right: 10px; 
 }
 
 /* 미디어쿼리 스타일링 */
@@ -47,17 +48,11 @@ a {
   /* 검색창을 보이게 함 */
   .asibal{
       display: block;
-      transform: translateY(-420%);
+      transform: translateY(-600%);
   }
   /* 네비게이션 메뉴를 세로로 정렬하고, 중앙 정렬 */
   .nav{
       flex-direction: column;
-      text-align: center;
-      width:100%; 
   } 
 }
 
-/* 리스트 아이템 텍스트 중앙 정렬 스타일링 */
-.il{
-  text-align: center;
-}
