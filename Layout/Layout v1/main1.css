@@ -10,6 +10,10 @@
   border: rgb(0, 255, 72) 2px solid;
 }
 
+.il:hover {
+  background-color: rgb(255, 0, 0);
+  transition: 0.5s;
+}
 /* 네비게이션 메뉴 스타일링 */
 .nav{
   list-style: none;
@@ -19,6 +23,7 @@
   display: flex;
   /*space-around아이템들 둘레에 균일한 간격 생성*/
   justify-content: space-around;
+
   
 }
 
