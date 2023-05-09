@@ -29,6 +29,7 @@
 
 /* 링크 스타일링 */
 a {
+  font-size: 20px;
   color: #f3f3f3;
   text-decoration: none;
 }
@@ -45,7 +46,7 @@ a {
   position:absolute;
   right:10px;
   display: none; 
-  padding-right: 10px; 
+  padding-right: 5px; 
 }
 
 /* 미디어쿼리 스타일링 */
@@ -53,7 +54,7 @@ a {
   /* 검색창을 보이게 함 */
   .asibal{
       display: block;
-      transform: translateY(-600%);
+      transform: translateY(-760%);
   }
   /* 네비게이션 메뉴를 세로로 정렬하고, 중앙 정렬 */
   .nav{
