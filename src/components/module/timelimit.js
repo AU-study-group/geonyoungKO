@@ -7,4 +7,4 @@ export const time1 = `
 </div>
 `;
 
-// 선언된 time1 을 내보내라
+// 선언된 time1 을 수출
