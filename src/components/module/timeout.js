@@ -7,15 +7,15 @@
 
 
 
-let clear = document.querySelector('.boom');
-let dom = document.querySelector('.timesale');
+let dom1 = document.querySelector('.boom');
+let dom2 = document.querySelector('.timesale');
 let count = 5; 
 let countout = setInterval(function() {count--; console.log(count+"초남았읍니다")
-dom.textContent = count;
+dom2.textContent = count;
 if (count == 0){
     clearInterval(countout)
     alert('마감')
-    clear.textContent = '';
+    dom1.textContent = '';
 }
 },1000);
 //countout  = couunt를 1초씩 감소 만약에 count가 0이되면 countout을 종료//

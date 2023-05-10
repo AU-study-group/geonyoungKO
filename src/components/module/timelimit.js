@@ -1,5 +1,5 @@
 export const time1 = `
-<div>
+<div class = "boom1">
   <h4>shirts on sale</h4>
   <button>Login</button>
 </div>
