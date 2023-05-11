@@ -11,7 +11,6 @@ export const menu = `
         <li class = "il"><a href="#">menu6</a></li>
         </ul>
         </nav>  
-    
 `;
 
 // 선언된  menu를 수출
