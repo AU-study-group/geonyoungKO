@@ -11,6 +11,7 @@ export const menu = `
         <li class = "il"><a href="#">menu6</a></li>
         </ul>
         </nav>  
+        <footer class = "asibal1">푸터</footer>
 `;
 
 // 선언된  menu를 수출
