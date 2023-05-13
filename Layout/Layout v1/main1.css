@@ -60,5 +60,8 @@ a {
   .nav{
       flex-direction: column;
   } 
+  .푸터{
+    flex-direction: column;
+}
 }
 
