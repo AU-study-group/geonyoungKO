@@ -3,6 +3,7 @@ html, body {
   width: 100%;
   margin: 0;
   padding: 0;
+  
 }
 
 /*네비게이션 바 스타일링 */
@@ -16,10 +17,8 @@ html, body {
   margin: 10px;
   display: flex;
   /*space-around아이템들 둘레에 균일한 간격 생성*/
-  justify-content: space-around;
+  justify-content: space-around ;
   background-color: black;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 
@@ -40,46 +39,29 @@ a {
 
 
 .asibal{
-  color: rgb(0, 255, 72);
+  color: rgb(0, 0, 0);
   font-size: 25px;
   position:absolute;
   right:20px;
   display: none; 
-  padding-right: 0px; 
 }
 
-.푸터 {
+.푸터nav {
   display: flex;
   background-color: black;
   width: 100%;
   position: fixed;
   bottom: 0;
-  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding:10px;
+  justify-content: space-around ;
+  /* 수평 가운데 정렬을 위해 추가 */
+}
+
+.il2{
   
 }
-
-.il2 {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-}
-
-.푸터nav {
-  display: flex;
-  text-align: center;
-  margin:0 auto;
-}
-
-/*푸터 nav li 스타일링*/
-.푸터nav li {
-  margin: 0 10px;
-}
-
-
-
-
-
-
 
 
 
@@ -87,12 +69,12 @@ a {
 @media screen and (max-width:780px){
   .asibal{
       display: block;
-      transform: translatey(-160%);
+      transform: translatey(-170%);
   }
   /* 네비게이션 메뉴를 세로로 정렬하고, 중앙 정렬 */
   .nav{
       flex-direction: column;
-      display:none;
+      /*display:none;*/
   } 
 
   .il:hover {
@@ -100,14 +82,18 @@ a {
     transition: 0.5s;
   }
 
-.il2:hover{
-  background-color:  rgb(0, 255, 72);
-  transition: 0.5s;
-}
-.푸터nav{
+  .푸터nav {
+  display: flex;
   flex-direction: column;
-  padding-right: 30px;
-}
+  text-align: end;
+  } 
+
+  .il2{
+    margin-right: 20px;
+  }
+  .il2:hover{
+   margin-right: 30px;
+  }
 
 }
 
