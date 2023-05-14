@@ -6,17 +6,6 @@ html, body {
 }
 
 /*네비게이션 바 스타일링 */
-.navbar{
-  font-size : 12pt;
-  display : flex;
-  flex-direction: row;
-  /*space-between아이템들 사이에 균일한 간격 생성*/
-  justify-content: space-between;
-  align-items: end;
-  background-color:rgb(0, 0, 0);
-  border: rgb(0, 255, 72) 2px solid;
-  margin: 20px;
-}
 
 
 /* 네비게이션 메뉴 스타일링 */
@@ -103,6 +92,7 @@ a {
   /* 네비게이션 메뉴를 세로로 정렬하고, 중앙 정렬 */
   .nav{
       flex-direction: column;
+      display:none;
   } 
 
   .il:hover {

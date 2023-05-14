@@ -11,7 +11,6 @@ export const menu = `
         </ul>
   
 <footer class = "푸터">
-
     <ul class = "푸터nav">
       <li class = "il2"><a href="#">Home</a></li>
       <li class = "il2"><a href="#">About</a></li>
