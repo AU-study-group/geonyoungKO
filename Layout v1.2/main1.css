@@ -3,11 +3,11 @@ html, body {
   width: 100%;
   margin: 0;
   padding: 0;
-  
 }
 
-/*네비게이션 바 스타일링 */
-
+i{
+  font-style: normal;
+}
 
 /* 네비게이션 메뉴 스타일링 */
 .nav{
@@ -19,6 +19,8 @@ html, body {
   /*space-around아이템들 둘레에 균일한 간격 생성*/
   justify-content: space-around ;
   background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 
@@ -28,6 +30,7 @@ a {
   font-size: 20px;
   color: #f3f3f3;
   text-decoration: none;
+  font-style: normal;
 }
 
 
@@ -56,12 +59,11 @@ a {
   margin: 0;
   padding:10px;
   justify-content: space-around ;
+  font-style: normal;
   /* 수평 가운데 정렬을 위해 추가 */
 }
 
-.il2{
-  
-}
+
 
 
 
@@ -93,6 +95,8 @@ a {
   }
   .il2:hover{
    margin-right: 30px;
+   background-color: rgb(0, 255, 72);
+    transition: 0.5s;
   }
 
 }
