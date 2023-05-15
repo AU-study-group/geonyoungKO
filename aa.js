@@ -11,6 +11,7 @@ fetch('https://janghwanpark.github.io/ajax-data-storage/json-data/product-data/m
             <p>감독 : <span>${director}</span>
                년도 : <span>${year}</span></br>
                평점 : <span>${rating}</span></p>
+               장르 : <span>${genre}</sapn></p>
                <button class = "get-products-item">담기</button>
             </div>
             </div>`);
